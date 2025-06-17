@@ -1,4 +1,4 @@
-# 🚦 Inter-VLAN Routing using Sub-Interfaces (Router-on-a-Stick)
+ 🚦 Inter-VLAN Routing using Sub-Interfaces (Router-on-a-Stick)
 
 ## 📘 Project Overview
 This project demonstrates communication between three VLANs using sub-interfaces configured on a single router interface. The method used is known as **Router-on-a-Stick**, which is a fundamental concept in CCNA and is commonly used in small to mid-sized networks.
@@ -24,7 +24,7 @@ Three VLANs are configured to represent different departments within an organiza
 - [x] Trunk connection between switch and router operational
 
 ## 🖼 Network Diagram
-> A visual topology screenshot is included as `topology.png` (if available).
+> ![topology](https://github.com/user-attachments/assets/9f693ae9-f260-4a6c-b825-54abfcf9eb09)#
 
 ## ⚙️ Tools Used
 - Cisco Packet Tracer
@@ -38,9 +38,3 @@ Three VLANs are configured to represent different departments within an organiza
 - Limitations of Router-on-a-Stick in large networks
 
 ---
-
-### ✅ Suggestions for Future Enhancements
-
-- Add a DHCP server instead of static IP addressing
-- Use a Layer 3 switch for direct inter-VLAN routing
-- Add DNS or Web servers to simulate real-world services
